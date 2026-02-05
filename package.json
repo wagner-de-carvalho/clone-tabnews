@@ -4,7 +4,9 @@
   "description": "Divulgação de notícias",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "Wagner Carvalho",
   "license": "MIT",
@@ -12,5 +14,8 @@
     "next": "^15.5.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
   }
 }
